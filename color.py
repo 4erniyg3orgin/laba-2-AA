@@ -1,11 +1,8 @@
-# color.py
+
 from typing import Dict
 
 class ColorCoefficient:
-    """
-    Возвращает коэффициент для цвета.
-    Если цвет неизвестен — 1.0
-    """
+   
     _COEFFICIENTS: Dict[str, float] = {
         "белый": 1.0,
         "синий": 1.0,
